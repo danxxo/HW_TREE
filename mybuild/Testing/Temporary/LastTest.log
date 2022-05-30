@@ -1,0 +1,246 @@
+Start testing: May 30 03:25 MSK
+----------------------------------------------------------
+1/9 Testing: TREE.Contains
+1/9 Test: TREE.Contains
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=TREE.Contains" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"TREE.Contains" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TREE.Contains
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TREE
+[ RUN      ] TREE.Contains
+[       OK ] TREE.Contains (0 ms)
+[----------] 1 test from TREE (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TREE.Contains" end time: May 30 03:25 MSK
+"TREE.Contains" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: TREE.Insert
+2/9 Test: TREE.Insert
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=TREE.Insert" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"TREE.Insert" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TREE.Insert
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TREE
+[ RUN      ] TREE.Insert
+[       OK ] TREE.Insert (0 ms)
+[----------] 1 test from TREE (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TREE.Insert" end time: May 30 03:25 MSK
+"TREE.Insert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: TREE.Remove
+3/9 Test: TREE.Remove
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=TREE.Remove" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"TREE.Remove" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TREE.Remove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TREE
+[ RUN      ] TREE.Remove
+[       OK ] TREE.Remove (0 ms)
+[----------] 1 test from TREE (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TREE.Remove" end time: May 30 03:25 MSK
+"TREE.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: TREE.Size
+4/9 Test: TREE.Size
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=TREE.Size" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"TREE.Size" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TREE.Size
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TREE
+[ RUN      ] TREE.Size
+[       OK ] TREE.Size (0 ms)
+[----------] 1 test from TREE (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TREE.Size" end time: May 30 03:25 MSK
+"TREE.Size" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: TREE.Height
+5/9 Test: TREE.Height
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=TREE.Height" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"TREE.Height" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TREE.Height
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TREE
+[ RUN      ] TREE.Height
+[       OK ] TREE.Height (0 ms)
+[----------] 1 test from TREE (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TREE.Height" end time: May 30 03:25 MSK
+"TREE.Height" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: TREE.Find_min_key
+6/9 Test: TREE.Find_min_key
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=TREE.Find_min_key" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"TREE.Find_min_key" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TREE.Find_min_key
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TREE
+[ RUN      ] TREE.Find_min_key
+[       OK ] TREE.Find_min_key (0 ms)
+[----------] 1 test from TREE (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TREE.Find_min_key" end time: May 30 03:25 MSK
+"TREE.Find_min_key" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: TREE.Find_max_key
+7/9 Test: TREE.Find_max_key
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=TREE.Find_max_key" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"TREE.Find_max_key" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TREE.Find_max_key
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TREE
+[ RUN      ] TREE.Find_max_key
+[       OK ] TREE.Find_max_key (0 ms)
+[----------] 1 test from TREE (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TREE.Find_max_key" end time: May 30 03:25 MSK
+"TREE.Find_max_key" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: Dictionary.Index_operator
+8/9 Test: Dictionary.Index_operator
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=Dictionary.Index_operator" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"Dictionary.Index_operator" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Dictionary.Index_operator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Dictionary
+[ RUN      ] Dictionary.Index_operator
+[       OK ] Dictionary.Index_operator (0 ms)
+[----------] 1 test from Dictionary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Dictionary.Index_operator" end time: May 30 03:25 MSK
+"Dictionary.Index_operator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: Dictionary.Insert
+9/9 Test: Dictionary.Insert
+Command: "/home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/example_tests" "--gtest_filter=Dictionary.Insert" "--gtest_also_run_disabled_tests"
+Directory: /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild
+"Dictionary.Insert" start time: May 30 03:25 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/nikita/Desktop/TREEEE/cmake-example-repo/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Dictionary.Insert
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Dictionary
+[ RUN      ] Dictionary.Insert
+[       OK ] Dictionary.Insert (0 ms)
+[----------] 1 test from Dictionary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Dictionary.Insert" end time: May 30 03:25 MSK
+"Dictionary.Insert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 30 03:25 MSK
