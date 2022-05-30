@@ -1,0 +1,12 @@
+GoogleTestCi.Foo 0 0
+ExampleTest.DmitriiLeonidovich 1 0.00276687
+TREE.Contains 2 0.00160565
+TREE.Insert 2 0.00167335
+TREE.Remove 2 0.00129537
+TREE.Size 2 0.0014349
+TREE.Height 2 0.00148031
+TREE.Find_min_key 2 0.00134657
+TREE.Find_max_key 2 0.00212587
+Dictionary.Index_operator 2 0.00328938
+Dictionary.Insert 2 0.00222338
+---
