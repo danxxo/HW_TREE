@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include <fstream>
 
 
 namespace BMSTU {
@@ -31,6 +32,9 @@ namespace BMSTU {
         void Print(int space) const {
             PrintTree(this->root_, space);
         }
+        void Graph_Print_(std::ofstream &out){
+            Graph_Print(out, this->root_);
+        }
         void inorderTraversal() {
             this->inorderTraversal(this->root_);
         }
@@ -46,9 +50,6 @@ namespace BMSTU {
         K Find_max_key(){
             return max_key();
         }
-//        void DrawShape() const{
-//            DrawRect();
-//        }
     private:
 // "Узел дерева"
         struct TreeNode {
@@ -218,30 +219,6 @@ namespace BMSTU {
                 return  findMaxNode(this->root_)->key;
             }
         }
-///нарисовать прямоугольник вокруг кея
-        void DrawRect(const std::unique_ptr<TreeNode> &node) const {
-            if (node == nullptr) {
-                return;
-            } else {
-                size_t num_length;
-                K num = node->key;
-                std::string num_str = std::to_string(num);
-                num_length = num_str.length();
-                const size_t const_num_length = num_length;
-                while ((num_length + 4) != 0){
-                    std::cout << "-";
-                    num_length--;
-                }
-                std::cout << "\n| " << node->key << " |\n";
-                num_length = const_num_length + 4;
-                while (num_length != 0){
-                    std::cout << "-";
-                    num_length--;
-                }
-                std::cout << "\n";
-                return;
-            }
-        }
 /// "Печать на экран"
         void PrintTree(const std::unique_ptr<TreeNode> &node, int space) const {
             if (node == nullptr) {
@@ -255,6 +232,34 @@ namespace BMSTU {
                 std::cout << node->key << "\n";
                 // DrawRect(node);
                 PrintTree(node->left, space);
+            }
+        }
+///вывод в GRAPH_FILE(исполняемый файл) для рисовки дерева через Graphviz 
+        void Graph_Print(std::ofstream &out, std::unique_ptr<TreeNode> &node){
+            if (file_to_write_head){
+                out << "pwd\n";
+                out << "echo ' digraph G {\n";
+                file_to_write_head = false;
+            }
+                if (node == nullptr) {
+                    //throw "Node is empty";
+                } else {
+                    if (node->left == nullptr) {
+
+                    } else {
+                        out << node->key << " -> " << node->left->key << ";\n";
+                        Graph_Print(out,node->left);
+                    }
+                    if (node->right == nullptr) {
+
+                    } else {
+                        out << node->key << " -> " << node->right->key << ";\n";
+                        Graph_Print(out,node->right);
+                    }
+                }
+
+            if (this->Find_max_key() == node->key){
+                out << "} ' | dot -Tsvg > my_tree.svg\n";
             }
         }
 /// Высота дерева
@@ -296,6 +301,8 @@ namespace BMSTU {
 
         std::unique_ptr<TreeNode> root_;
         size_t size_;
+        bool file_to_write_head = true;
+        bool file_to_write_tale = true;
     };
     template<typename K, typename V>
     class dictionary {
@@ -314,10 +321,15 @@ namespace BMSTU {
         BstTree<K, V> search_tree_;
     };
 }
-//int main(){
-//    BMSTU::dictionary<char, int> k;
-//    k.Insert('h',10);
-//    k.Insert('v', 15);
-//    std::cout << k.search_tree_.Contains('h');
-//    std::cout << k['h'] << k['v'];
+//int main(int argc, char ** argv){
+//    std::ofstream out;
+//    out.open(argv[1]);
+//    if(out.is_open()) {
+//        BMSTU::BstTree<int, int> k;
+//        for (int i = 0; i < 50; ++i) {
+//            k.Insert(i);
+//        }
+//        std::cout << std::endl;
+//        k.Graph_Print_(out);
+//    }
 //}
