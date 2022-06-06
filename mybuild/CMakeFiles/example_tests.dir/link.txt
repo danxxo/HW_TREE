@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/example_tests.dir/example_test.cpp.o CMakeFiles/example_tests.dir/tree.cpp.o  -o example_tests  lib/libgtest_main.a lib/libgtest.a -lpthread 
